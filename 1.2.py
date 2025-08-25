@@ -43,9 +43,18 @@ def diamond():
 
         if (valuePosition != 0):
             for k in range(valuePosition + 1):
+                valueTextPositif = ""
+                for l in range(k + 1):
+                    valueTextPositif += " " + tableAlphabet[k] + " "
+                print(valueTextPositif)
+            for m in range(valuePosition - 1, -1, -1):
+                valueTextNegative = ""
+                for n in range(m + 1):
+                    valueTextNegative += " " + tableAlphabet[m]
+                print(valueTextNegative)
+        else:
+            print(
+                "La valeur définit n'existe pas ou à été mal écris, veuillez écrire une lettre de l'alphabet en MAJUSCULE")
 
-                print(tableAlphabet[k])
-            for l in range(valuePosition - 1, -1, -1):
-                print(tableAlphabet[l])
 
 diamond()
