@@ -28,6 +28,13 @@ def leapYears(n):
             print("Soucis pour l'année :", x)
 
 
+def espacementDiamond(n):
+    text = ""
+    for i in range(n):
+        text += " "
+    return text
+
+
 def diamond():
     tableAlphabet = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T",
                      "U", "V", "W", "X", "Y", "Z"]
@@ -45,12 +52,19 @@ def diamond():
             for k in range(valuePosition + 1):
                 valueTextPositif = ""
                 for l in range(k + 1):
-                    valueTextPositif += " " + tableAlphabet[k] + " "
+                    if k == 0:
+                        valueTextPositif = espacementDiamond(valuePosition - (k - 1)) + tableAlphabet[k]
+                    else:
+                        valueTextPositif += espacementDiamond(valuePosition - k) + tableAlphabet[k] + "  "
                 print(valueTextPositif)
+
             for m in range(valuePosition - 1, -1, -1):
                 valueTextNegative = ""
                 for n in range(m + 1):
-                    valueTextNegative += " " + tableAlphabet[m]
+                    if m == 0:
+                        valueTextNegative = espacementDiamond(valuePosition - (m - 1)) + tableAlphabet[m]
+                    else:
+                        valueTextNegative += espacementDiamond(valuePosition - m) + tableAlphabet[m] + "  "
                 print(valueTextNegative)
         else:
             print(
