@@ -1,16 +1,3 @@
-# python_cnita
-Cours Python | Campus Numérique in the Alps
-
-Commande pour lancé : 
-
-
-
-ou 
-
-
-Commande pour lancé bottle : 
-dans bottle_venv `python hello_bottle.py`
-
 ![GitHub contributors](https://img.shields.io/github/contributors/raphaelmakaryan/python_cnita?color=0d0&style=for-the-badge)
 ![GitHub release](https://img.shields.io/github/v/release/raphaelmakaryan/python_cnita?style=for-the-badge)
 ![GitHub watchers](https://img.shields.io/github/watchers/raphaelmakaryan/python_cnita?style=for-the-badge)
