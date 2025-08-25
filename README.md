@@ -28,12 +28,18 @@ Le dossier `bottle_venv` contient les fichiers necessaires de l'exercice demand�
 <br>
 
 # llm
-Le dossier `llm` contient, comme son nom l'indique, un LLM en local, exercice bonus donnée par le formateur. 
-
+Le dossier `llm` contient, comme son nom l'indique, un LLM en local, exercice bonus donné par le formateur.
 Lien du site de l'exercice : https://machinelearningmastery.com/your-first-local-llm-api-project-in-python-step-by-step/?ref=dailydev
 
+<br>
+
+# searchVector
+Le dossier `searchVector` contient, comme son nom l'indique, une implémentation de recherche vectorielle, exercice bonus donné par le formateur.
+
+Lien du site de l'exercice : https://machinelearningmastery.com/implementing-vector-search-from-scratch-a-step-by-step-tutorial/?ref=dailydev
 
 <br>
+
 
 # tests
 Le dossier `tests` contient, comme son nom l'indique, des essais, des tests pour comprendre et utiliser Python.
