@@ -4,15 +4,18 @@ from sympy import false
 def fizzBuzz():
     # 1 a 100 | Multiple de 3 = Fizz | Multiple de 5 = Buzz | Mutiple de 3 et 5 = FizzBuzz
     for i in range(1, 100):
-        if i % 3 == 0 or i == 3:
+        if i % 3 == 0 and i % 5 == 0:
+            print("FizzBuzz")
+        elif i % 3 == 0 or i == 3:
             print("Fizz")
         elif i % 5 == 0 or i == 5:
             print("Buzz")
-        elif i % 3 == 0 and i % 5 == 0:
-            print("FizzBuzz")
         else:
             print(i)
     print("Fin de la boucle")
+
+
+# fizzBuzz()
 
 
 def leapYears(n):
@@ -26,6 +29,8 @@ def leapYears(n):
             print("Pas bissextile")
         else:
             print("Soucis pour l'année :", x)
+
+# leapYears(1980)
 
 
 def espacementDiamond(n):
@@ -70,5 +75,4 @@ def diamond():
             print(
                 "La valeur définit n'existe pas ou à été mal écris, veuillez écrire une lettre de l'alphabet en MAJUSCULE")
 
-
-diamond()
+# diamond()
