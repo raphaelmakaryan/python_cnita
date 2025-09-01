@@ -65,13 +65,13 @@ Pour lancer les différents fichiers Python, il faudra télécharger quelques d�
 - `pip install requests`
 - `pip install -U pytest`
 - `sudo apt-get install python3-pytest`
+- `pip3 install waitress`
 
 <br>
 
 Pour lancer Bottle, il faudra suivre le site ici pour l'installation (on ne sait jamais) :
 https://bottlepy.org/docs/dev/tutorial.html#installation
 
-Après ça, il faudra lancer les commandes : 
+Après ça, il faudra lancer cet commande : 
 
-`cd bottle_venv`
-`python my_version.py`
+`cd bottle_venv python my_version.py`
